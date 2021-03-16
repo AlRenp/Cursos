@@ -12,6 +12,7 @@ body {
 #container {
     margin: 0 auto;
     width: 920px;
+    border: 1px solid red;
 }
 
 #cabecalho {
@@ -24,26 +25,39 @@ body {
     padding: 10px;
 }
 
-#container-principal {
+#postagem-principal {
     width: 640px;
     background: whitesmoke;
-    padding:0 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+#container-lateral {
+    width: 240px;
+    float: right;
     margin-top: 20px;
 }
 
-.titulo-postagem-principal {
-    padding: 20px 0;
+#postagem-lateral {
+    background: whitesmoke;
+    padding: 5px;
+}
+
+#menu-lateral {
+    margin-top: 10px;
+    background: whitesmoke;
+    padding: 5px;
 }
 
 /*FORMATAÇÕES GERAIS*/
 
-a {
+#menu a {
     text-decoration: NONE;
     color: white;
     padding: 8px 12px;
 }
 
-a:hover {
+menu a:hover {
     background: white;
     color: #f7b600;
     border-radius: 5px;
@@ -54,10 +68,27 @@ h1 {
     color: darkgray;
 }
 
-h2 {
-    color: #f7b600;
-}
-
 span {
     color: white;
+}
+
+ul li {
+    list-style: none;
+}
+
+#container-lateral h2 {
+    font-size: 1.2em;   
+    background: grey;
+    color: darkgray;
+    padding: 3px 5px;
+    margin-bottom: 5px;
+}
+
+#container-lateral ul, a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+#container-lateral p {
+    padding: 5px 10px ;
 }
