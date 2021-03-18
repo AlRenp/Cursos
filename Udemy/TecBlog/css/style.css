@@ -11,7 +11,7 @@ body {
 
 #container {
     margin: 0 auto;
-    width: 920px;
+    width: 960px;
     border: 1px solid red;
 }
 
@@ -30,10 +30,19 @@ body {
     background: whitesmoke;
     margin-top: 20px;
     float: left;
+    padding: 20px;
+}
+
+#postagem-principal h2 {
+    color: #f7b600;
+}
+
+#postagem-principal img {
+    margin-top: 20px;
 }
 
 #container-lateral {
-    width: 240px;
+    width: 260px;
     float: right;
     margin-top: 20px;
 }
@@ -51,13 +60,22 @@ body {
 
 /*FORMATAÇÕES GERAIS*/
 
+#container-lateral a {
+    color: #f7b600;
+    text-decoration: none;
+}
+
+#container-lateral a:hover {
+    text-decoration: underline;
+}
+
 #menu a {
     text-decoration: NONE;
     color: white;
     padding: 8px 12px;
 }
 
-menu a:hover {
+#menu a:hover {
     background: white;
     color: #f7b600;
     border-radius: 5px;
@@ -84,9 +102,8 @@ ul li {
     margin-bottom: 5px;
 }
 
-#container-lateral ul, a {
-    padding: 5px;
-    text-decoration: none;
+#container-lateral ul{
+    margin: 10px;
 }
 
 #container-lateral p {
